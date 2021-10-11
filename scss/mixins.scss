@@ -1,0 +1,12 @@
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin img-format {
+  background-size: cover;
+  background-position: center;
+  width: 200px;
+  height: 200px;
+}
